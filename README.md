@@ -1,38 +1,36 @@
-|---|---------|---------|-----------|
-| 01 | Comanda Cliente | `ComandaCliente` | Gerenciamento de comandas de clientes |
-| 02 | Sistema Livraria | `Biblioteca` | Controle de acervo de uma livraria/biblioteca |
-| 03 | Sistema Encomenda | `Encomenda` | Rastreamento e controle de encomendas |
-| 04 | Sistema Passagem | `Passagem` | Venda e gerenciamento de passagens |
-| 05 | Sistema Empresa | `Aplicativo`, `Empresa`, `Usuario` | Simulação de empresa com usuários e aplicativo |
-| 06 | Sistema Universidade | `Aluno`, `Universidade` | Gerenciamento de alunos em uma universidade |
----
-## 📚 Conceitos de POO Aplicados
-- ✅ **Classes e Objetos** — modelagem de entidades do mundo real
-- ✅ **Encapsulamento** — atributos privados com getters/setters
-- ✅ **Herança** — reutilização de código entre classes relacionadas
-- ✅ **Abstração** — representação simplificada de sistemas reais
-- ✅ **Associação entre classes** — relação entre `Empresa`, `Usuario` e `Aplicativo`; `Aluno` e `Universidade`
----
-## 🛠️ Tecnologias
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-- **Linguagem:** Java
-- **Paradigma:** Programação Orientada a Objetos (POO)
----
-## ▶️ Como Executar
-Os projetos foram desenvolvidos no **BlueJ**, IDE educacional voltada para o ensino de POO.
-Para executar:
-1. Baixe e instale o [BlueJ](https://www.bluej.org/)
-2. Abra a pasta do exercício desejado no BlueJ
-3. Instancie as classes diretamente pela interface visual
-4. Chame os métodos através do menu de contexto dos objetos
-> Os projetos **não possuem método `main`** pois o BlueJ permite instanciar e
-> testar classes diretamente, sem necessidade de uma classe executável.
----
-## 🎓 Contexto Acadêmico
-Projetos desenvolvidos como parte da disciplina de POO durante o curso de graduação.
-Cada sistema modela um cenário do mundo real, reforçando a aplicação prática dos
-conceitos de orientação a objetos.
----
-## 👨‍💻 Autor
-**Gustavo Fernandes**  
-[![GitHub](https://img.shields.io/badge/GitHub-GustavoFernandes--05-181717?style=flat&logo=github)](https://github.com/GustavoFernandes-05)
+# Exercícios de Java: Programação Orientada a Objetos
+
+Repositório contendo exercícios práticos desenvolvidos na disciplina de Linguagem de Programação 2. Cada projeto modela um cenário do mundo real para reforçar a aplicação dos conceitos de orientação a objetos.
+
+## Projetos Desenvolvidos
+
+* **01. Comanda Cliente:** Gerenciamento de comandas (ComandaCliente.java).
+* **02. Sistema Livraria:** Controle de acervo (Biblioteca.java).
+* **03. Sistema Encomenda:** Rastreio de encomendas (Encomenda.java).
+* **04. Sistema Passagem:** Emissão e venda de passagens (Passagem.java).
+* **05. Empresa e Aplicativo:** Relação entre entidades (Empresa, Aplicativo, Usuario).
+* **06. Aluno e Universidade:** Associação de classes (Aluno, Universidade).
+
+## Conceitos Aplicados
+
+Os sistemas foram construídos aplicando os principais pilares da orientação a objetos:
+
+* **Classes e Objetos:** Modelagem das entidades.
+* **Encapsulamento:** Proteção de dados com atributos privados manipulados via getters e setters.
+* **Herança:** Reutilização de comportamento e estrutura entre classes relacionadas.
+* **Abstração:** Representação simplificada de sistemas reais.
+* **Associação:** Relacionamentos estruturais entre classes distintas (ex: Empresa/Usuario/Aplicativo e Aluno/Universidade).
+
+## Tecnologias
+
+* **Linguagem:** Java
+* **Paradigma:** Programação Orientada a Objetos (POO)
+
+## Como Executar
+
+Os projetos foram desenvolvidos no **BlueJ**, uma IDE educacional voltada para o ensino de POO. Por esse motivo, os projetos não possuem um método `main` convencional, pois a ferramenta permite instanciar e testar as classes diretamente pela sua interface visual.
+
+1. Baixe e instale o BlueJ.
+2. Abra o diretório do exercício desejado na IDE.
+3. Instancie as classes com o botão direito diretamente na interface visual.
+4. Teste as funcionalidades chamando os métodos através do menu de contexto de cada objeto criado.
